@@ -1,0 +1,243 @@
+body {
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:8pt;
+	color:#fff;
+   background-color:#046688;
+	margin:10px;
+}
+a:link, a:visited {
+	text-decoration:none;
+	color:#fff;
+} 
+a:hover {
+	text-decoration:none;
+	color:#8FE26E;
+}
+.header {
+	font-size:11pt;	
+	font-weight:bold;
+	padding-bottom:3px;
+	color:#8FE26E;
+}
+.export, .small {
+	font-size:10pt;
+}
+#topbar {
+	font-size:14pt;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+#movietitle {
+	font-size:18pt;
+	font-weight:bold;
+	color:#8FE26E;
+}
+#runtime {
+	font-style:italic;
+	font-size:8pt;
+}
+#imdbrating {
+	font-size:10pt;
+	color:#8FE26E;
+	font-style:italic;
+}
+#boxsetcover {
+	float:left;
+	margin-left:0px;
+	margin-right:10px;
+	margin-top:0px;
+	width:50px;
+}
+#boxsetcover img.coverimage {
+	width:50px;
+	border:none;
+}
+#frontcover {
+	float:left;clear:left;
+	margin-left:0px;
+	margin-right:10px;
+	margin-top:0px;
+	margin-bottom:10px;
+	width:170px;
+}
+#backcover {
+	float:left;clear:left;
+	margin-left:10px;
+	margin-right:0px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:170px;
+}
+img.coverimage {
+	width:170px;
+	border:none;
+}
+#episodes {
+	float:left;
+	clear:left;
+	margin-left:0px;
+	margin-right:10px;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+#indexvalue {
+	font-size:14pt;
+	font-weight:bold;
+}
+#editiondetails {
+	float:left;
+	margin-right:20px;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+#personaldetails {
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:0px;
+	margin-bottom:10px;  
+}
+#userdefined {
+	font-size:100%;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+#imagefiles {
+	clear:both;
+}
+img.imagefile {
+	height:150px;
+	border:none;
+}
+#features {
+	clear:left;
+}
+#notes {
+	clear:left;
+}
+.fieldvaluelarge {
+	font-size:10pt;
+	font-weight:bold;
+	color:White;
+}
+.fieldlabel {
+	font-size:8pt;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+.fieldvalue {
+	font-size:8pt;
+	font-weight:bold;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:5px;
+}
+.episodetitle {
+	font-size:9pt;
+	font-weight:normal;
+}
+.castactor {
+	font-size:10pt;
+	font-weight:bold;
+}
+.castcharacter {
+	font-size:8pt;
+	font-style:italic;
+	padding-left:5px;
+}
+.searchresult {
+  color:Black;
+  background-color:#FFFF93;
+}
+.navigation {
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.navlink {
+  padding-left:20px;
+  padding-right:20px;
+  text-align:center;
+  display:inline;
+  color:White;
+  font-size:8pt;
+  font-weight:bold;
+}
+.navlink a {
+  color:White;	
+  font-size:8pt;
+  font-weight:bold;
+}
+.navlink a:hover {
+  color:#8FE26E;
+}
+
+table.person-list {
+  width: 100%;
+  font-size: 110%;
+  border-top: 1px dotted transparent;
+}
+table.person-list table.person-list {
+  border-top: none;
+}
+table.person-list tr {
+  border-bottom: 1px dotted transparent;
+}
+table.person-list table.person-list tr.no-border,
+table.person-list table.person-list tr:last-child {
+  border-bottom: none;
+}
+table.person-list table.person-list tr.top-border {
+  border-top: 1px dotted transparent;
+}
+table.person-list td {
+  vertical-align: middle;
+  line-height: 16px;
+}
+table.person-list.crew td {
+  padding: 5px 0px 5px 0px;
+}
+table.person-list.crew td td {
+  padding: 0px;
+}
+table.person-list td.picture {
+  height: 40px;
+  width: 30px;
+  text-align: center;
+}
+table.person-list td.picture img {
+  height: 40px;
+  width: auto;
+  vertical-align: middle;
+}
+table.person-list.cast td.person {
+  width: 50%;
+  padding-left: 10px;
+  font-weight: bold;
+}
+table.person-list.cast td.role {
+  width: 50%;
+  padding-left: 10px;
+}
+table.person-list.crew td.person {
+  width: 75%;
+  padding-left: 10px;
+  font-weight: bold;
+}
+table.person-list.crew td.person.narrow {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+table.person-list.crew td.person td.person {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 10px;
+}
+table.person-list.crew td.role {
+  width: 25%;
+  font-weight: normal;
+  vertical-align: top;
+}
+table.person-list.crew td.role.image {
+  line-height: 30px;
+}
